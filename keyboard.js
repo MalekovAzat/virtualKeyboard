@@ -1072,7 +1072,6 @@ window.addEventListener("load", () => {
           localStorage.setItem("locale", this.localeIndex);
         }
 
-        // textArea.selectionStart = textArea.value.length;
         event.preventDefault();
 
         localStorage.setItem("text", textArea.value);
